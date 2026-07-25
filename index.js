@@ -18,7 +18,7 @@ function startProject() {
   }
   lastRestartTime = now;
 
-  const child = spawn("node", ["azadx69x.js"], {
+  const child = spawn("node", ["Goat.js"], {
     cwd: __dirname,
     stdio: "inherit",
     shell: true,
