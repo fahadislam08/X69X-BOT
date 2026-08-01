@@ -6,7 +6,7 @@ module.exports = {
 		version: "0.0.7",
 		author: "Azadx69x",
 		countDown: 5,
-		role: 0,
+		role: 2,
 		description: {
 			en: "𝐆𝐞𝐭 𝐑𝐚𝐧𝐝𝐨𝐦 𝐀𝐧𝐢𝐦𝐞 𝐇𝐨𝐭 𝐈𝐦𝐚𝐠𝐞"
 		},
