@@ -20,7 +20,7 @@ module.exports = {
 
   onChat: async function({ message, args, event }) {
     const body = (event.body || "").toLowerCase();
-    if (!body.startsWith("tt ") && !body.startsWith("tiktok ")) return;
+    if (!body.startsWith("ttk") && !body.startsWith("tiktok ")) return;
     args = body.split(" ").slice(1);
     return this.run({ message, args });
   },
